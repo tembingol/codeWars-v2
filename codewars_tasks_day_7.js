@@ -76,3 +76,35 @@ function XO(str) {
   return xArray.length == oArray.length;
 }
 //task 5 ---
+
+//task 6 +++
+/*
+7 kyu
+Get the Middle Character
+*/
+function getMiddle(s) {
+  if (s.length == 1) {
+    return s;
+  }
+  if (s.length % 2 == 0) {
+    return s
+      .split("")
+      .splice(s.length / 2 - 1, 2)
+      .join("");
+  }
+  return s
+    .split("")
+    .splice(s.length / 2, 1)
+    .join("");
+}
+//task 6 ---
+
+//task 7 +++
+/*
+7 kyu
+Get the Middle Character
+*/
+var isSquare = function (n) {
+  return Number.isInteger(Math.sqrt(n));
+};
+//task 7 ---
