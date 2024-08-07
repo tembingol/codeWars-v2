@@ -46,3 +46,33 @@ function countBy(x, n) {
   return z;
 }
 //task 3 ---
+
+//task 4 +++
+/*
+8 kyu
+Count by X
+*/
+function countBy(x, n) {
+  let z = [];
+  for (let i = 1; i < n + 1; i++) {
+    z.push(i * x);
+  }
+  console.log(z);
+  return z;
+}
+//task 4 ---
+
+//task 5 +++
+/*
+7 kyu
+Exes and Ohs
+*/
+function XO(str) {
+  str = str.toLowerCase();
+
+  let xArray = str.split("o").join("");
+  let oArray = str.split("x").join("");
+
+  return xArray.length == oArray.length;
+}
+//task 5 ---
