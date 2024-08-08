@@ -62,9 +62,11 @@ function sumArray(array) {
 8 kyu
 Beginner - Reduce but Grow
 */
-function grow(x) {
-  let sum = 1;
-  x.forEach((val) => (sum *= val));
+function countSheeps(sheep) {
+  let sum = 0;
+  sheep.forEach((val) => {
+    if (val) sum += val;
+  });
   return sum;
 }
 //task 5 ---
