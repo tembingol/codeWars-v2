@@ -37,3 +37,22 @@ function duplicateCount(text) {
   ).length;
 }
 //task 3 ---
+
+//task 4 +++
+/*
+8 kyu
+Sum without highest and lowest number
+*/
+function sumArray(array) {
+  let sum = 0;
+  if (array == null) {
+    return sum;
+  }
+
+  array.sort((a, b) => b - a);
+
+  array.slice(1, -1).forEach((val) => (sum += val));
+
+  return sum;
+}
+//task 4 ---
