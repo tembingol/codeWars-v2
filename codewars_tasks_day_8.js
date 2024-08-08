@@ -56,3 +56,15 @@ function sumArray(array) {
   return sum;
 }
 //task 4 ---
+
+//task 5 +++
+/*
+8 kyu
+Beginner - Reduce but Grow
+*/
+function grow(x) {
+  let sum = 1;
+  x.forEach((val) => (sum *= val));
+  return sum;
+}
+//task 5 ---
