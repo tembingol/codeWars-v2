@@ -59,3 +59,34 @@ function dnaStrand(dna) {
   return resultStr;
 }
 //task 3 ---
+
+//task 4 +++
+/*
+8 kyu
+Beginner Series #1 School Paperwork
+*/
+function paperwork(n, m) {
+  return n > 0 && m > 0 ? n * m : 0;
+}
+//task 4 ---
+
+//task 5 +++
+/*
+8 kyu
+Invert values
+*/
+function invert(array) {
+  return array.map((value) => value * -1);
+}
+//task 5 ---
+
+//task 6 +++
+/*
+7 kyu
+Sum of two lowest positive integers
+*/
+function sumTwoSmallestNumbers(numbers) {
+  let sortedArr = numbers.sort((a, b) => a - b);
+  return sortedArr[0] + sortedArr[1];
+}
+//task 6 ---
