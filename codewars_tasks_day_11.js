@@ -101,3 +101,52 @@ function getSum(a, b) {
   return ((max - min + 1) * (max + min)) / 2;
 }
 //task 6 ---
+
+//task 7 +++
+/*
+8 kyu
+You only need one - Beginner
+*/
+function check(a, x) {
+  return a.indexOf(x) > -1;
+}
+//task 7 ---
+
+//task 8 +++
+/*
+8 kyu
+Volume of a Cuboid
+*/
+class Kata {
+  static getVolumeOfCuboid(length, width, height) {
+    return length * width * height;
+  }
+}
+//task 8 ---
+
+//task 9 +++
+/*
+7 kyu
+The highest profit wins!
+*/
+function minMax(arr) {
+  resultArr = arr.sort((a, b) => a - b);
+  return [resultArr[0], resultArr[arr.length - 1]];
+}
+
+//task 9 ---
+
+//task 10 +++
+/*
+7 kyu
+Remove the minimum
+*/
+function removeSmallest(numbers) {
+  let result = [...numbers];
+  let min = Math.min(...numbers);
+
+  result.splice(result.indexOf(min), 1);
+
+  return result;
+}
+//task 10 ---
