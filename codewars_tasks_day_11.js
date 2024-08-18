@@ -67,3 +67,37 @@ function strCount(str, letter) {
   return matches ? matches.length : 0;
 }
 //task 3 ---
+
+//task 4 +++
+/*
+7 kyu
+Testing 1-2-3
+*/
+var number = function (array) {
+  return array.map(function (value, index) {
+    return index + 1 + ": " + value;
+  });
+};
+//task 4 ---
+
+//task 5 +++
+/*
+8 kyu
+Is it even?
+*/
+function testEven(n) {
+  return n % 2 == 0;
+}
+//task 5 ---
+
+//task 6 +++
+/*
+7 kyu
+Beginner Series #3 Sum of Numbers
+*/
+function getSum(a, b) {
+  let max = Math.max(a, b);
+  let min = Math.min(a, b);
+  return ((max - min + 1) * (max + min)) / 2;
+}
+//task 6 ---
