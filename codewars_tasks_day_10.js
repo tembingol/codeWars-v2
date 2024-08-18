@@ -90,3 +90,31 @@ function sumTwoSmallestNumbers(numbers) {
   return sortedArr[0] + sortedArr[1];
 }
 //task 6 ---
+
+//task 7 +++
+/*
+8 kyu
+Correct the mistakes of the character recognition software
+*/
+function correct(string) {
+  resultStr = string.replace(/5/g, "S");
+  resultStr = resultStr.replace(/0/g, "O");
+  resultStr = resultStr.replace(/1/g, "I");
+
+  return resultStr;
+}
+//task 7 ---
+
+//task 8 +++
+/*
+8 kyu
+Correct the mistakes of the character recognition software
+*/
+function correct(string) {
+  resultStr = string.replace(/5/g, "S");
+  resultStr = resultStr.replace(/0/g, "O");
+  resultStr = resultStr.replace(/1/g, "I");
+
+  return resultStr;
+}
+//task 8 ---
