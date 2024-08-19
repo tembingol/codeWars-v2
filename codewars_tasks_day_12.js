@@ -52,3 +52,46 @@ function oddOrEven(array) {
     : "odd";
 }
 //task 3 ---
+
+//task 4 +++
+/*
+8 kyu
+Cat years, Dog years
+*/
+var humanYearsCatYearsDogYears = function (humanYears) {
+  if (humanYears == 1) {
+    return [humanYears, 15, 15];
+  }
+  if (humanYears == 2) {
+    return [humanYears, 24, 24];
+  }
+  return [humanYears, 24 + (humanYears - 2) * 4, 24 + (humanYears - 2) * 5];
+};
+//task 4 ---
+
+//task 5 +++
+/*
+8 kyu
+Twice as old
+*/
+function twiceAsOld(dadYearsOld, sonYearsOld) {
+  result = dadYearsOld - sonYearsOld * 2;
+  return result < 0 ? result * -1 : result;
+}
+//task 5 ---
+
+//task 6 +++
+/*
+5 kyu
+Extract the domain name from a URL
+*/
+function domainName(url) {
+  let sourceString = url
+    .replace("http://", "")
+    .replace("https://", "")
+    .replace("www.", "")
+    .split(/[/?#]/)[0];
+  let domain = sourceString.split(".")[0];
+  return domain;
+}
+//task 6 ---
