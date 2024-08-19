@@ -132,3 +132,34 @@ function getAge(inputString) {
   return parseInt(inputString[0]);
 }
 //task 9 ---
+
+//task 10 +++
+/*
+8 kyu
+Is the string uppercase?
+*/
+String.prototype.isUpperCase = function () {
+  //console.log(this)
+  return this == this.toUpperCase();
+};
+//task 10 ---
+
+//task 11 +++
+/*
+8 kyu
+Reverse List Order
+*/
+function reverseList(list) {
+  return list.reverse();
+}
+//task 11 ---
+
+//task 12 +++
+/*
+7 kyu
+Sum of odd numbers
+*/
+function rowSumOddNumbers(n) {
+  return n ** 3;
+}
+//task 12 ---
