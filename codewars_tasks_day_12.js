@@ -95,3 +95,40 @@ function domainName(url) {
   return domain;
 }
 //task 6 ---
+
+//task 7 +++
+/*
+8 kyu
+Are You Playing Banjo?
+*/
+function areYouPlayingBanjo(name) {
+  // Implement me
+  return name.toLowerCase()[0] == "r"
+    ? `${name} plays banjo`
+    : `${name} does not play banjo`;
+}
+//task 7 ---
+
+//task 8 +++
+/*
+7 kyu
+Categorize New Member
+*/
+function openOrSenior(data) {
+  let result = [];
+  data.forEach((value) => {
+    result.push(value[0] > 54 && value[1] > 7 ? "Senior" : "Open");
+  });
+  return result;
+}
+//task 8 ---
+
+//task 9 +++
+/*
+8 kyu
+Parse nice int from char problem
+*/
+function getAge(inputString) {
+  return parseInt(inputString[0]);
+}
+//task 9 ---
