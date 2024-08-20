@@ -68,3 +68,44 @@ function getDivisorsCnt(n) {
   return count;
 }
 //task 3 ---
+
+//task 4 +++
+/*
+8 kyu
+What is between?
+*/
+function between(a, b) {
+  let result = [];
+  for (i = a; i <= b; i++) {
+    result.push(i);
+  }
+  return result;
+}
+//task 4 ---
+
+//task 5 +++
+/*
+8 kyu
+Lario and Muigi Pipe Problem
+*/
+function pipeFix(numbers) {
+  let min = Math.min(...numbers);
+  let max = Math.max(...numbers);
+  let arr = [];
+  for (i = min; i <= max; i++) {
+    arr.push(i);
+  }
+  return arr;
+}
+//task 5 ---
+
+//task 6 +++
+/*
+8 kyu
+Training JS #1: create your first JS function and print "Hello World!"
+*/
+function helloWorld() {
+  let str = "Hello World!";
+  console.log(str);
+}
+//task 6 ---
