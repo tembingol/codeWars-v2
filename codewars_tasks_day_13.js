@@ -109,3 +109,35 @@ function helloWorld() {
   console.log(str);
 }
 //task 6 ---
+
+//task 7 +++
+/*
+8 kyu
+Beginner - Lost Without a Map
+*/
+function maps(x) {
+  return x.map(function (el, index) {
+    return el * 2;
+  });
+}
+//task 7 ---
+
+//task 8 +++
+/*
+7 kyu
+String ends with?
+*/
+function solution(str, ending) {
+  return str.slice(str.length - ending.length) == ending;
+}
+//task 8 ---
+
+//task 9 +++
+/*
+8 kyu
+Sentence Smash
+*/
+function smash(words) {
+  return words.join(" ");
+}
+//task 9 ---
