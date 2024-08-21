@@ -15,3 +15,17 @@ function bouncingBall(h, bounce, window) {
   return result - 1;
 }
 //task 1 ---
+
+//task 2 +++
+/*
+8 kyu
+Convert number to reversed array of digits
+*/
+function digitize(n) {
+  return n
+    .toString()
+    .split("")
+    .reverse()
+    .map((val) => parseInt(val));
+}
+//task 2 ---
